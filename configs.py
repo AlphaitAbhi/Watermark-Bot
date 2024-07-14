@@ -14,7 +14,7 @@ class Config(object):
 	STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS", "NoNeed")
 	STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME", "NoNeed")
 	LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL",)
 	DOWN_PATH = os.environ.get("DOWN_PATH", "./downloads")
 	PRESET = os.environ.get("PRESET", "ultrafast")
 	OWNER_ID = int(os.environ.get("OWNER_ID", 1445283714))
