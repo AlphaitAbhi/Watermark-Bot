@@ -547,7 +547,7 @@ async def button(bot, cmd: CallbackQuery):
 		await db.delete_user(cmd.from_user.id)
 		await db.add_user(cmd.from_user.id)
 		await cmd.answer("Settings Reseted Successfully!", show_alert=True)
-	AHBot.run()
+AHBot.run()
 
 
 
