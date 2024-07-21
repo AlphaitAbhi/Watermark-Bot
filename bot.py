@@ -549,4 +549,4 @@ async def button(bot, cmd: CallbackQuery):
 		await cmd.answer("Settings Reseted Successfully!", show_alert=True)
 
 
-AHBot.run()
+
